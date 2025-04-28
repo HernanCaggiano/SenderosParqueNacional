@@ -1,0 +1,11 @@
+# Estaciones
+E EstacionA -34.6100 -58.3800
+E EstacionB -34.6120 -58.3815
+E EstacionC -34.6135 -58.3840
+E EstacionD -34.6150 -58.3860
+
+# Senderos
+S EstacionA EstacionB 2
+S EstacionB EstacionC 5
+S EstacionC EstacionD 8
+S EstacionA EstacionC 4
