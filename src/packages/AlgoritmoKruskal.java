@@ -44,5 +44,4 @@ public class AlgoritmoKruskal {
     public int getImpactoTotal() {
         return impactoTotal;
     }
-
 }

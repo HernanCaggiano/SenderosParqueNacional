@@ -32,5 +32,4 @@ public class Estacion {
     public int hashCode() {
         return nombre.toLowerCase().hashCode();
     }
-
 }

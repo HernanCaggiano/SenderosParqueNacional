@@ -21,5 +21,4 @@ public class UtilidadesFlujo {
 
         return mapa;
     }
-
 }

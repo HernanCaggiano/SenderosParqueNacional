@@ -34,5 +34,4 @@ public class Grafo {
     public List<Sendero> getSenderos() {
         return senderos;
     }
-
 }

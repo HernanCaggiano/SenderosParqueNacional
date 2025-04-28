@@ -60,5 +60,4 @@ public class VistaPrincipal extends JFrame {
     public void agregarEstacionMapa(Estacion e) {
         mapa.addMapMarker(new MapMarkerDot(e.getNombre(), new Coordinate(e.getLatitud(), e.getLongitud())));
     }
-
 }

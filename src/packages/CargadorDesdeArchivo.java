@@ -12,7 +12,7 @@ public class CargadorDesdeArchivo {
         while (scanner.hasNextLine()) {
             String linea = scanner.nextLine().trim();
             if (linea.isEmpty() || linea.startsWith("#")) {
-                continue; // Saltar comentarios o líneas vacías
+                continue;
             }
             String[] partes = linea.split(" ");
             if (partes[0].equals("E") && partes.length == 4) {
@@ -29,5 +29,4 @@ public class CargadorDesdeArchivo {
         }
         scanner.close();
     }
-
 }
