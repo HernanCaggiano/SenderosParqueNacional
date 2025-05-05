@@ -1,0 +1,56 @@
+{
+    "estaciones": [
+        {
+            "nombre": "Estacion A",
+            "latitud": -41.1,
+            "longitud": -71.3
+        },
+        {
+            "nombre": "Estacion B",
+            "latitud": -41.2,
+            "longitud": -71.35
+        },
+        {
+            "nombre": "Estacion C",
+            "latitud": -41.25,
+            "longitud": -71.28
+        },
+        {
+            "nombre": "Estacion D",
+            "latitud": -41.22,
+            "longitud": -71.32
+        }
+    ],
+    "senderos": [
+        {
+            "origen": "Estacion A",
+            "destino": "Estacion B",
+            "impacto": 3,
+            "capacidad": 10
+        },
+        {
+            "origen": "Estacion B",
+            "destino": "Estacion C",
+            "impacto": 5,
+            "capacidad": 7
+        },
+        {
+            "origen": "Estacion C",
+            "destino": "Estacion D",
+            "impacto": 2,
+            "capacidad": 5
+        },
+        {
+            "origen": "Estacion D",
+            "destino": "Estacion A",
+            "impacto": 4,
+            "capacidad": 6
+        },
+        {
+            "origen": "Estacion A",
+            "destino": "Estacion C",
+            "impacto": 6,
+            "capacidad": 4
+        }
+    ]
+}
