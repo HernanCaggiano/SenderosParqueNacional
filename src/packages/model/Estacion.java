@@ -35,4 +35,9 @@ public class Estacion {
     public List<Sendero> getSenderos() {
         return senderos;
     }
+    
+    @Override
+    public String toString() {
+    	return nombre;
+    }
 }

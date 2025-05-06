@@ -78,5 +78,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/CONECTIA BA/Downloads/json-20230227.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/JMapViewer-1.14.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
